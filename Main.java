@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         // Створення об'єкта класу-нащадка
-        Smartphone phone1 = new Smartphone("Apple", "iPhone 13", "iOS", 128);
-        Smartphone phone2 = new Smartphone("Samsung", "Galaxy S21");
+        Smartphone phone1 = new Smartphone("Apple", "iPhone 16", "iOS", 512);
+        Smartphone phone2 = new Smartphone("Samsung", "Galaxy S21", "Android", 256);
 
         // Демонстрація використання this, super, перевантаження методів та конструкторів
         System.out.println(phone1); // Виклик toString()
