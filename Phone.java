@@ -1,15 +1,15 @@
-// Абстрактний базовий клас "Телефон"
-public abstract class Phone implements PhoneInterface {
-    private final String brand; // Незмінний атрибут
-    private final String model; // Незмінний атрибут
 
-    // Конструктор з параметрами
+public abstract class Phone implements PhoneInterface {
+    private final String brand; 
+    private final String model; 
+
+    
     public Phone(String brand, String model) {
         this.brand = brand;
         this.model = model;
     }
 
-    // Гетери
+
     public String getBrand() {
         return brand;
     }
@@ -18,13 +18,13 @@ public abstract class Phone implements PhoneInterface {
         return model;
     }
 
-    // Реалізація toString()
+
     @Override
     public String toString() {
         return "Phone{brand='" + brand + "', model='" + model + "'}";
     }
 
-    // Реалізація equals()
+
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
